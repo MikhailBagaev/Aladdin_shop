@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-html, body, .container, .scroller {
+html, body, .scroller {
 	height: 100%;
 }
 
@@ -32,14 +32,14 @@ html, body, .container, .scroller {
 }
 
 .menu-trigger:before {
+	content: '';
 	position: absolute;
-	top: 2px;
+	top: -4px;
 	left: 0;
 	width: 40px;
-	height: 6px;
+	height: 4px;
 	background: #fff;
-	box-shadow: 0 6px #34495e, 0 12px #fff, 0 18px #34495e, 0 24px #fff;
-	content: '';
+	box-shadow: 0 10px #fff, 0 20px #fff;
 }
 
 .mp-pusher {

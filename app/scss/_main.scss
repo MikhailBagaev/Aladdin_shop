@@ -29,23 +29,35 @@
   }
 }
 
-.push-menu-header {
-  // display: flex;
-  position: relative;
+.mp-level {
+  // position: relative;
   span {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 1.4em;
     padding: 6px 15px;
-    margin: 0;
-    position: absolute;
-    right: 10px;
-    top: 2px;
+    display: inline-block;
+    margin-top: 20px;
+    float: right;
+    margin-right: 40px;    right: 10px;
     color: $font-color-light;
     border: 1px solid $font-color-light;
     border-radius: 3px;
   }
+}
+// [data-level="1"] {
+//    ul {
+//      li {
+//        &:last-child {
+
+//        }
+//      }
+//    }
+// }
+.push-menu-header {
+  // display: flex;
+  // position: relative;
 }
 
 .basket-info {
@@ -176,6 +188,24 @@
 }
 
 .list-tabs {
+  .active {
+    .tab {
+      a {
+        span.bg-star_dark {
+          background-position: -230px -10px;
+        }
+        span.bg-lamp_dark {
+          background-position: -642px -10px;
+        }
+        span.bg-percent_dark {
+          background-position: -326px -10px;
+        }
+        span.bg-cool_dark {
+          background-position: -95px -10px;
+        }
+      }
+    }
+  }
   li:nth-child(1) {
     .tab {
       a {
@@ -213,9 +243,15 @@
     display: inline-block;
     height: 36px;
     transform: translate(-15px, 15px);
-    &.bg-lamp {
+    &.bg-lamp_dark {
       margin-left: -5px;
       transform: translate(-15px, 10px);
+    }
+    @media screen and (max-width: 1200px) {
+      &.bg-lamp_dark {
+        margin-left: -5px;
+        transform: translate(-18px, 10px);
+      }
     }
   }
 }

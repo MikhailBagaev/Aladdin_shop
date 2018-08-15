@@ -61,11 +61,11 @@
     .entry {
         padding-right: 15px;
         li {
+            &:hover {
+                transform: scale(1.2);
+            }
             a {
                 color: $font-color-light !important;
-                &:hover {
-                    transform: scale(1.2);
-                }
             }
         }
     }
@@ -87,6 +87,9 @@
                 padding: 15px;
                 @media screen and (max-width: 480px) {
                     padding: 5px;
+                }
+                &:hover {
+                    transform: scale(1.2);
                 }
                 a {
                     color: $font-color-light;
@@ -116,6 +119,12 @@
                 display: block;
                 color: $font-color-dark;
             }
+        }
+    }
+    .service-name {
+        &:hover {
+            transform: scale(1.1);
+            color: #3177df;
         }
     }
     .service-icon {

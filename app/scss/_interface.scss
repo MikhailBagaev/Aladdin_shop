@@ -15,6 +15,12 @@
     border: 3px solid $accent-color;
     border-radius: 10px;
     box-shadow: 2.5px 4.3px 10px rgba(0, 0, 0, 0.24);
+    &:hover {
+        color: $font-color-dark;
+        background-image: $second-gradient;
+        border: 3px solid $second-color;
+        cursor: pointer;
+    }
 }
 input[type="search"] {
     border: none;
