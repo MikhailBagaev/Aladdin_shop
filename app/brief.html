@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/linecons.css">
     <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/jcarousel.connected-carousels.css">
     <!--build:css css/styles.min.css-->
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/modernizr.custom.js"></script>
@@ -61,7 +62,7 @@
                             <div class="navbar-top">
                                 <ul class="float-right entry">
                                     <li>
-                                        <a href="#!" data-toggle="modal" data-target="#consult">Вход</a>
+                                        <a href="index.html" data-toggle="modal" data-target="#consult">Вход</a>
                                     </li>
                                 </ul>
                                 <ul class="float-right navbar-socials">
@@ -160,9 +161,7 @@
                         </div>
                         <nav id="mp-menu" class="mp-menu">
                             <div class="mp-level">
-                                <div class="push-menu-header">
-                                    <h2 class="icon icon-world">все категории</h2>
-                                </div>
+                                <h2 class="icon icon-world">все категории</h2>
                                 <ul>
                                     <li class="icon icon-arrow-left">
                                         <a class="icon icon-display" href="#">Одежда для новорожденных</a>
@@ -372,69 +371,130 @@
 
                     </div>
                 </div>
-                <div class="row slider">
 
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <div class="row breadcrumb-wrapper">
+                    <div class="container">
+                        <ol class="breadcrumb">
+                            <li>
+                                <a href="#">Каталог</a>
+                            </li>
+                            <li>
+                                <a href="#">Кроватки </a>
+                            </li>
+                            <li>
+                                <a href=""> Кроватки трансформеры </a>
+                            </li>
+                            <li class="active">Кроватка-трансформер Малютка 6 в 1</li>
                         </ol>
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="carousel-inner-caption">
-                                <p>
-                                    ДЕТСКИЕ ТОВАРЫ ОТ ЛУЧШИХ ПРОИЗВОДИТЕЛЕЙ ДОСТАВКА ПО ВСЕЙ СТРАНЕ
-                                </p>
+                    </div>
+                </div>
+
+                <div class="row product-card-wrapper">
+                    <div class="container">
+                        <div class="product-card">
+                            <div class="col-md-6">
+                                <div class="product-card-img">
+                                    <img src="images/bed-big.jpg" alt="" class="img-responsive">
+                                </div>
+                                <div class="prewiev-product-card">
+                                    <div class="col-md-3 col-sm-2 col-xs-4">
+                                        <div class="preview-product-card-img">
+                                            <a href="https://placeholder.com">
+                                                <img src="http://via.placeholder.com/98x94" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-2 col-xs-4">
+                                        <div class="preview-product-card-img">
+                                            <a href="https://placeholder.com">
+                                                <img src="http://via.placeholder.com/98x94" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-2 col-xs-4">
+                                        <div class="preview-product-card-img">
+                                            <a href="https://placeholder.com">
+                                                <img src="http://via.placeholder.com/98x94" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="item active">
-                                <img src="images/slider-img_1.jpg" alt="pic_1" class="image--center">
-                                <div class="carousel-caption"></div>
-                            </div>
-                            <div class="item">
-                                <img src="images/slider-img_2.jpg" alt="pic_1" class="image--center">
-                                <div class="carousel-caption"></div>
-                            </div>
-                            <div class="item">
-                                <img src="images/slider-img_3.jpg" alt="pic_1" class="image--center">
-                                <div class="carousel-caption"></div>
+                            <div class="col-md-6">
+                                <div class="product-card-info">
+                                    <div class="product-card-header">
+                                        <h3>Кроватка-трансформер Малютка 6 в 1</h3>
+                                        <div class="raiting">
+                                            <span class="raiting-star"></span>
+                                            <span class="raiting-star"></span>
+                                            <span class="raiting-star"></span>
+                                            <span class="raiting-star"></span>
+                                            <span class="raiting-star"></span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card-coding-info">
+                                        <p class="product-card-artikul">Артикул: 458932</p>
+                                        <p class="product-card-code">Код товара: Ak-42895</p>
+                                    </div>
+                                    <div class="country-producer">
+                                        <p>
+                                            Производитель:
+                                            <span class="">Россия</span>
+                                        </p>
+                                    </div>
+                                    <div class="product-card-price">
+                                        <p>Цена:
+                                            <span class="product-card-price-num">6 900</span>
+                                            <span> рублей</span>
+                                        </p>
+                                    </div>
+                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
+                                    <div class="guarantee">
+                                        <p>Гарантия
+                                            <span class="guarantee-term">6</span> месяцев </p>
+                                        <p>Обмен и возврат
+                                            <span class="change-term">14</span> дней</p>
+                                    </div>
+                                    <div class="product-card-description">
+                                        <h6>Краткое описание:</h6>
+                                        <p>Удобная кроватка-трансформер - это экономия места в вашем доме и бюджета вашей семьи.
+                                            Такая модель прослужит малышу от первых дней жизни до школьного возраста.
+                                        </p>
+                                        <p>Для самых маленьких крошек это будет круглая кроватка и удобный пеленальный столик,
+                                            далее из двух предметов получится овальная кровать. При опущенном дне кроватка
+                                            может служить и манежем для маленьких непосед. Всего 6 вариантов сборки: круглая
+                                            колыбель, овальная кровать, манеж, диван, пеленальный столик+люлька, стол + 2
+                                            стула.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                        </a>
                     </div>
                 </div>
                 <div class="row tabs nav-tabs">
                     <div class="container">
                         <ul class="list-tabs">
                             <li>
-                                <div class="col-lg-3 col-md-6 col-sm-6 tab">
-                                    <a href="#hit-sales" data-toggle="tab">
-                                        <span class="bg-star_dark"></span> Хиты продаж</a>
+                                <div class="col-lg-3 col-md-3 col-sm-6 tab">
+                                    <a href="#description-item" data-toggle="tab">
+                                        описание товара</a>
                                 </div>
                             </li>
                             <li>
-                                <div class="col-lg-3 col-md-6 col-sm-6 tab">
-                                    <a href="#new-products" data-toggle="tab">
-                                        <span class="bg-lamp_dark"></span>новинки каталога</a>
+                                <div class="col-lg-3 col-md-3 col-sm-6 tab">
+                                    <a href="#comment-item" data-toggle="tab">
+                                        отзывы</a>
                                 </div>
                             </li>
                             <li>
-                                <div class="col-lg-3 col-md-6 col-sm-6 tab">
-                                    <a href="#actions" data-toggle="tab">
-                                        <span class="bg-percent_dark"></span>Акции</a>
+                                <div class="col-lg-3 col-md-3 col-sm-6 tab">
+                                    <a href="#delivery-payment-item" data-toggle="tab">
+                                        доставка и оплата</a>
                                 </div>
                             </li>
                             <li>
-                                <div class="col-lg-3 col-md-6 col-sm-6 tab">
-                                    <a href="#sales" data-toggle="tab">
-                                        <span class="bg-cool_dark"></span>Распродажа товара</a>
+                                <div class="col-lg-3 col-md-3 col-sm-6">
                                 </div>
                             </li>
                         </ul>
@@ -442,318 +502,136 @@
                 </div>
                 <div class="row tabs-targets">
                     <div class="container tab-content">
-                        <div id="hit-sales" class="tab-pane fade">
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/bed.jpg" alt="">
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="brief.html"></a>
-                                        <p>
-                                            <img src="images/bed.jpg" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/bed.jpg" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/bed.jpg" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                        </div>
-                        <!--end of .hit-sales-->
-                        <div id="new-products" class="active tab-pane fade in">
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/logo.png" alt="">
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/logo.png" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/logo.png" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/logo.png" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                        </div>
-                        <!--end of .new-products-->
-                        <div id="actions" class="tab-pane fade">
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/slider-img_1.jpg" alt="">
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/slider-img_1.jpg" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/slider-img_1.jpg" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/slider-img_1.jpg" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                        </div>
-                        <!--end of .actions-->
-                        <div id="sales" class="tab-pane fade">
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/footer-img.png" alt="">
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/footer-img.png" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/footer-img.png" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <figure class="tabs-targets-item">
-                                    <div class="link-wrapper">
-                                        <a href="#!"></a>
-                                        <p>
-                                            <img src="images/footer-img.png" alt="" />
-                                        </p>
-                                        <figcaption>Кроватка для новорожденного</figcaption>
-                                        <p class="price">
-                                            <span class="old-price">900 руб.</span>
-                                            <span class="new-price">820 руб.</span>
-                                        </p>
-                                    </div>
-                                    <button type="submit" class="btn-common btn-to-basket">В корзину</button>
-                                </figure>
-                            </div>
-                        </div>
-                        <!--end of .sales-->
-                    </div>
-                    <!--end of .tabs-targets-->
-                    <div class="row">
-                        <div class="container">
-                            <a class="btn-common btn-to-catalogue">перейти в каталог</a>
-                        </div>
-                    </div>
-                    <div class="row subscribe-email">
-                        <div class="container">
-                            <div class="col-md-6 col-sm-6">
-                                <p>подпишитесь на рассылку и получайте скидки и новости на почту</p>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="email">
-                                    <form action="get">
-                                        <input type="email" name="email" id="email">
-                                        <button type="submit" class="bg-envilop"></button>
-                                    </form>
+                        <div id="description-item" class="tab-pane fade">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>
+                                        Ложе регулируется по высоте в 3-х положениях. Есть колеса для удобного перемещения кроватки по квартире. Спальное место:
+                                        круглая колыбель диаметр - 71 см; кровать - 131 * 71 см Матрасик и маятниковый механизм
+                                        в комплект не входят! маятниковый механизм для круглой кровати- 2200 руб Цвет белый
+                                        Наличие уточняйте, пожалуйста, у менеджера
+                                    </p>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Для самых маленьких крошек это будет круглая кроватка и удобный пеленальный столик, далее
+                                        из двух предметов получится овальная кровать. При опущенном дне кроватка может служить
+                                        и манежем для маленьких непосед. Всего 6 вариантов сборки: круглая колыбель, овальная
+                                        кровать, манеж, диван, пеленальный столик+люлька, стол + 2 стула.</p>
+                                </div>
+                            </div>
+
                         </div>
+                        <!--end of .description-item-->
+                        <div id="comment-item" class="active tab-pane fade in">
+                            <p>LoremVoluptates non mollitia animi in in mollitia enim sequi. Nostrum ducimus repellendus odit
+                                expedita amet. Veritatis nesciunt quo qui consequatur velit non molestias aliquam. Doloribus
+                                quaerat perferendis quaerat eligendi suscipit voluptates natus voluptatem. Debitis maiores
+                                tempora in non. Tenetur nihil placeat molestiae officia perspiciatis.</p>
+                            <p>LoremVoluptates non mollitia animi in in mollitia enim sequi. Nostrum ducimus repellendus odit
+                                expedita amet. Veritatis nesciunt quo qui consequatur velit non molestias aliquam. Doloribus
+                                quaerat perferendis quaerat eligendi suscipit voluptates natus voluptatem. Debitis maiores
+                                tempora in non. Tenetur nihil placeat molestiae officia perspiciatis.</p>
+                            <p>LoremVoluptates non mollitia animi in in mollitia enim sequi. Nostrum ducimus repellendus odit
+                                expedita amet. Veritatis nesciunt quo qui consequatur velit non molestias aliquam. Doloribus
+                                quaerat perferendis quaerat eligendi suscipit voluptates natus voluptatem. Debitis maiores
+                                tempora in non. Tenetur nihil placeat molestiae officia perspiciatis.</p>
+                            <p>LoremVoluptates non mollitia animi in in mollitia enim sequi. Nostrum ducimus repellendus odit
+                                expedita amet. Veritatis nesciunt quo qui consequatur velit non molestias aliquam. Doloribus
+                                quaerat perferendis quaerat eligendi suscipit voluptates natus voluptatem. Debitis maiores
+                                tempora in non. Tenetur nihil placeat molestiae officia perspiciatis.</p>
+                            <p>LoremVoluptates non mollitia animi in in mollitia enim sequi. Nostrum ducimus repellendus odit
+                                expedita amet. Veritatis nesciunt quo qui consequatur velit non molestias aliquam. Doloribus
+                                quaerat perferendis quaerat eligendi suscipit voluptates natus voluptatem. Debitis maiores
+                                tempora in non. Tenetur nihil placeat molestiae officia perspiciatis.</p>
+                        </div>
+                        <!--end of .comment-item-->
+                        <div id="delivery-payment-item" class="tab-pane fade">
+                            <div class="col-md-6">
+                                <p>Consectetur modi et neque quia. Id quia illo quis odit qui sapiente. Illo quia rem. Necessitatibus
+                                    et nemo sapiente et omnis tempore doloremque rem qui.</p>
+                                <p>Consectetur modi et neque quia. Id quia illo quis odit qui sapiente. Illo quia rem. Necessitatibus
+                                    et nemo sapiente et omnis tempore doloremque rem qui.</p>
+                                <p>LoremVoluptates non mollitia animi in in mollitia enim sequi. Nostrum ducimus repellendus
+                                    odit expedita amet. Veritatis nesciunt quo qui consequatur velit non molestias aliquam.
+                                    Doloribus quaerat perferendis quaerat eligendi suscipit voluptates natus voluptatem.
+                                    Debitis maiores tempora in non. Tenetur nihil placeat molestiae officia perspiciatis.</p>
+                            </div>
+
+                        </div>
+                        <!--end of .delivery-payment-item-->
                     </div>
-                    <div class="row customer-info">
+                    <!--end of .tabs-targets-->
+                    <div class="row random-items-gallery">
                         <div class="container">
-                            <p>Все товары для новорожденных и женщин торговой марки "Наша мама" проходят тщательный ежемесячный
-                                мониторинг со стороны собственной лаборатории. Предлагаемая косметика создается из безопасных
-                                натуральных компонентов и рекомендована ведущими аллергологами и педиатрами страны. Одежда
-                                отшивается из 100% хлопка, имеет мягкие плоские швы и не доставляет никакого дискомфорта.
-                                Мебель выполнена из экологически чистой древесины.</p>
-                            <p>Интернет-магазин устанавливает доступные цены на весь ассортимент продукции компании «Наша мама».</p>
-                            <p>Покупатели столицы могут воспользоваться курьерской доставкой, заказав ее непосредственно с сайта
-                                или пунктом самовывоза. Оплатить покупку можно на сайте интернет-магазина после оформления
-                                заказа при помощи банковской карты, по факту получения наличными или банковской картой курьеру,
-                                а также наличными при самовывозе в пункте выдачи интернет-магазина.
-                            </p>
-                            <p>Помимо интернет-магазина детских товаров, продукцию компании «Наша мама» можно приобрести в фирменных
-                                магазинах торговой марки. Фирменные магазины открыты в Москве, а также в городах: Люберцы,
-                                Жуковский, Железнодорожный (Балашиха), Тверь, Рязань, Орёл, Воронеж, Лиски (Воронежская область),
-                                Бобров (Воронежская область), Краснодар, Севастополь, Соликамск, Оренбург, Екатеринбург,
-                                Чита, Новосибирск, Красноярск, Челябинск, Копейск (Челябинская область), Назрань (Республика
-                                Ингушетия), Махачкала (Республика Дагестан), Нальчик (Кабардино-Балкарская Республика), Якутск,
-                                Иркутск, Хабаровск, Сарапул, Ханты-Мансийск (Ханты-Мансийский АО), Алматы (Республика Казахстан),
-                                Атырау (Республика Казахстан).
-                            </p>
+                            <h4>Возможно Вас заинтересуют следующие товары</h4>
+                            <div id="hit-sales" class="">
+                                <div class="col-lg-3 col-md-6">
+                                    <figure class="tabs-targets-item">
+                                        <div class="link-wrapper">
+                                            <a href="#!"></a>
+                                            <p>
+                                                <img src="images/bed.jpg" alt="">
+                                            </p>
+                                            <figcaption>Кроватка для новорожденного</figcaption>
+                                            <p class="price">
+                                                <span class="old-price">900 руб.</span>
+                                                <span class="new-price">820 руб.</span>
+                                            </p>
+                                        </div>
+                                        <button type="submit" class="btn-common btn-to-basket">В корзину</button>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <figure class="tabs-targets-item">
+                                        <div class="link-wrapper">
+                                            <a href="brief.html"></a>
+                                            <p>
+                                                <img src="images/bed.jpg" alt="" />
+                                            </p>
+                                            <figcaption>Кроватка для новорожденного</figcaption>
+                                            <p class="price">
+                                                <span class="old-price">900 руб.</span>
+                                                <span class="new-price">820 руб.</span>
+                                            </p>
+                                        </div>
+                                        <button type="submit" class="btn-common btn-to-basket">В корзину</button>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <figure class="tabs-targets-item">
+                                        <div class="link-wrapper">
+                                            <a href="#!"></a>
+                                            <p>
+                                                <img src="images/bed.jpg" alt="" />
+                                            </p>
+                                            <figcaption>Кроватка для новорожденного</figcaption>
+                                            <p class="price">
+                                                <span class="old-price">900 руб.</span>
+                                                <span class="new-price">820 руб.</span>
+                                            </p>
+                                        </div>
+                                        <button type="submit" class="btn-common btn-to-basket">В корзину</button>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <figure class="tabs-targets-item">
+                                        <div class="link-wrapper">
+                                            <a href="#!"></a>
+                                            <p>
+                                                <img src="images/bed.jpg" alt="" />
+                                            </p>
+                                            <figcaption>Кроватка для новорожденного</figcaption>
+                                            <p class="price">
+                                                <span class="old-price">900 руб.</span>
+                                                <span class="new-price">820 руб.</span>
+                                            </p>
+                                        </div>
+                                        <button type="submit" class="btn-common btn-to-basket">В корзину</button>
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
             </main>
@@ -903,7 +781,7 @@
             interval: 5000
         })
     </script>
-
+    <script src="js/jcarousel.connected-carousels.js"></script>
     <script src="js/script.js"></script>
     <!-- endbuild -->
 
